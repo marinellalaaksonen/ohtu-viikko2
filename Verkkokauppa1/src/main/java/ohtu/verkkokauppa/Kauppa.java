@@ -12,7 +12,6 @@ public class Kauppa {
     private Generaattori viitegeneraattori;
     private String kaupanTili;
 
-    @Autowired
     public Kauppa(Sailio s, Rahansiirto r, Generaattori g) {
         varasto = s;
         pankki = r;
