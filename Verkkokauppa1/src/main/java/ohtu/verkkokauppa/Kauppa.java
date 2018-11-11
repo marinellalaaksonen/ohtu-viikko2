@@ -4,7 +4,6 @@ import org.springframework.asm.commons.GeneratorAdapter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
 public class Kauppa {
 
     private Sailio varasto;

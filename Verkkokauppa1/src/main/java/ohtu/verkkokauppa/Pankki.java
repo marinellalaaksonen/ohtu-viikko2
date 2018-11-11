@@ -3,11 +3,9 @@ package ohtu.verkkokauppa;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
 public class Pankki implements Rahansiirto {
     private Tapahtumamuistio kirjanpito;
 
-    @Autowired
     public Pankki(Tapahtumamuistio t) {
         kirjanpito = t;
     }

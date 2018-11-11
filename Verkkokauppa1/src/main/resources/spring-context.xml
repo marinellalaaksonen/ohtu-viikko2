@@ -12,7 +12,7 @@
     <context:annotation-config />
     <context:component-scan base-package="ohtu.verkkokauppa" />
 
-    <!-- <bean id="viitegeneraattori" class="ohtu.verkkokauppa.Viitegeneraattori">
+    <bean id="viitegeneraattori" class="ohtu.verkkokauppa.Viitegeneraattori">
     </bean>
 
     <bean id="kirjanpito" class="ohtu.verkkokauppa.Kirjanpito">
@@ -30,6 +30,6 @@
         <constructor-arg ref="varasto" />
         <constructor-arg ref="pankki" />
         <constructor-arg ref="viitegeneraattori" />
-    </bean> -->
+    </bean>
 
 </beans>
